@@ -33,7 +33,7 @@ return [
 	                url="{URL}"
 	                cover="{COVER}"
                     lrc="lrc:{LRC}"
-                    lrctype="1">
+                    lrc-type="1">
                  </meting-js>'
             );
         })
