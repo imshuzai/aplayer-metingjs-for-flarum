@@ -24,16 +24,15 @@ return [
             $config->BBCodes->addCustom(
                 '[aplayer server="{SERVER}" id="{ID}" type="{TYPE}" list-folded="{LISTFOLDED}" name="{NAME}" artist="{ARTIST}" url="{URL} " cover="{COVER}" lrc="{LRC}"]',
                 '<meting-js
-	                server="{SERVER}"
-	                type="{TYPE}"
-	                id="{ID}"
+	            server="{SERVER}"
+	            type="{TYPE}"
+	            id="{ID}"
                     list-folded="{LISTFOLDED}"
                     name="{NAME}"
-	                artist="{ARTIST}"
-	                url="{URL}"
-	                cover="{COVER}"
-                    lrc="lrc:{LRC}"
-                    lrc-type="1">
+	            artist="{ARTIST}"
+	            url="{URL}"
+	            cover="{COVER}"
+                    lrc="lrc:{LRC}">
                  </meting-js>'
             );
         })
