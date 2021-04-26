@@ -1,5 +1,7 @@
 <?php
 
+namespace imshuzai\aplayer-metingjs-for-flarum;
+
 use Flarum\Extend;
 use Flarum\Frontend\Document;
 use s9e\TextFormatter\Configurator;
