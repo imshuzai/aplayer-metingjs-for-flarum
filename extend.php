@@ -7,7 +7,7 @@ use s9e\TextFormatter\Configurator;
 return [
     (new Extend\Frontend('forum'))
         ->content(function (Document $document) {
-            $document->head[] = '<link href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" rel="stylesheet" /><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>';
+            $document->head[] = '<link rel="stylesheet" type="text/css" href="../assets/extensions/imshuzai-aplayer-metingjs-for-flarum/APlayer.min.css"><script src="../assets/extensions/imshuzai-aplayer-metingjs-for-flarum/APlayer.min.js"></script><script src="../assets/extensions/imshuzai-aplayer-metingjs-for-flarum/Meting.min.js"></script>';
         }), 
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
