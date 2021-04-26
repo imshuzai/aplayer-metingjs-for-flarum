@@ -1,6 +1,6 @@
 <?php
 
-namespace imshuzai\aplayer-metingjs-for-flarum;
+namespace Imshuzai\Aplayer-metingjs-for-flarum;
 
 use Flarum\Extend;
 use Flarum\Frontend\Document;
