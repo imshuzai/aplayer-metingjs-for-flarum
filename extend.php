@@ -13,13 +13,11 @@ return [
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
                 '[metingjs server="{SERVER}" id="{ID}" type="{TYPE}" list-folded="{LISTFOLDED}"]',
-                '<span class="aplayer" server="{SERVER}" type="{TYPE}" id="{ID}" list-folded="{LISTFOLDED}">
-                 </span>'
+                '<span class="aplayer" server="{SERVER}" type="{TYPE}" id="{ID}" list-folded="{LISTFOLDED}"></span>'
             );
 	    $config->BBCodes->addCustom(
                 '[aplayer name="{NAME}" artist="{ARTIST}" url="{URL}" cover="{COVER}" lrc="{LRC}"]',
-                '<span class="aplayer" name="{NAME}" artist="{ARTIST}" url="{URL}" cover="{COVER}" lrc="{LRC}">
-                 </span>'
+                '<span class="aplayer" name="{NAME}" artist="{ARTIST}" url="{URL}" cover="{COVER}" lrc="{LRC}"></span>'
             );
         })
 ];
