@@ -1,26 +1,26 @@
 {
-    "name": "username/flarum-ext-name",
-    "description": "A lovely description.",
+    "name": "imshuzai/aplayer-n-metingjs-for-flarum",
+    "description": "Using Aplayer and MetingJS to embed music in Flarum.",
     "type": "flarum-extension",
-    "keywords": ["discussion", "template"],
+    "keywords": ["discussion"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Billy Wilcosky",
-            "homepage": "https://www.wilcosky.com",
+            "name": "imshuzai",
+            "homepage": "https://potatohovel.com",
             "role": "Creator"
         }
     ],
     "support": {
-        "issues": "https://github.com/zerosonesfun/flarum-bbcode-template/issues",
-        "source": "https://github.com/zerosonesfun/flarum-bbcode-template",
+        "issues": "https://github.com/imshuzai/aplayer-n-metingjs-for-flarum/issues",
+        "source": "https://github.com/imshuzai/aplayer-n-metingjs-for-flarum",
         "forum": "https://discuss.flarum.org"
     },
-    "homepage": "https://www.wilcosky.com",
+    "homepage": "https://potatohovel.com",
     "funding": [
         {
             "type": "website",
-            "url": "https://www.wilcosky.com"
+            "url": "https://potatohovel.com"
         }
     ],
     "require": {
@@ -33,10 +33,10 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "Title",
+            "title": "Aplayer&MetingJS",
             "category": "feature",
             "icon": {
-                "name": "fas fa-",
+                "name": "fas fa-music",
                 "backgroundColor": "#ddd",
                 "color": "#000"
             }
