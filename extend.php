@@ -32,7 +32,7 @@ return [
 	            artist="{ARTIST}"
 	            url="{URL}"
 	            cover="{COVER}"
-                    lrc="lrc:{LRC}">
+                    lrc="{LRC}">
                  </meting-js>'
             );
         })
