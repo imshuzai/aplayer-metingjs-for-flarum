@@ -1,5 +1,5 @@
-# Aplayer and MetingJS for Flarum 使用Aplayer与MetingJS为Flarum嵌入音乐
+# Aplayer and MetingJS for Flarum
 
-使用[Aplayer](https://github.com/DIYgod/APlayer)与[MetingJS](https://github.com/metowolf/MetingJS)，为[Flarum](https://github.com/flarum/flarum)嵌入音乐。
-资源通过[jsDelivr](https://www.jsdelivr.com/)引用。
+\[metingjs server="netease/tencent/kugou/baidu" id="song id/playlist id/album id" type="song/playlist/album" list-folded="true/false"]
 
+\[aplayer name="song name" artist="artist name" url="song url" cover="cover url" lrc="lrc url"]
