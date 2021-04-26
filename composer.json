@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "imshuzai\\aplayer-metingjs-for-flarum\\": "src/"
+            "Shuzai\\Aplayer\\": "src/"
         }
     },
     "extra": {
