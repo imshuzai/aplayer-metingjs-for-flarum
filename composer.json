@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ZerosOnesFun\\ExtensionName\\": "src/"
+            "imshuzai\\aplayer-metingjs-for-flarum\\": "src/"
         }
     },
     "extra": {
