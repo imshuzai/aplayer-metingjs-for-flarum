@@ -15,7 +15,7 @@ return [
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
-                '[metingjs server="{SERVER}" id="{ID}" type="{TYPE}" list-folded="{LISTFOLDED}"]',
+                '[metingjs server={SERVER} id={ID} type={TYPE} list-folded={LISTFOLDED}]',
                 '<meting-js
 	            server="{SERVER}"
 	            type="{TYPE}"
@@ -24,7 +24,7 @@ return [
                  </meting-js>'
             );
 	    $config->BBCodes->addCustom(
-                '[aplayer name="{NAME}" artist="{ARTIST}" url="{URL}" cover="{COVER}" lrc="{LRC}"]',
+                '[aplayer name={NAME} artist={ARTIST} url={URL} cover={COVER} lrc={LRC}]',
                 '<meting-js
                     name="{NAME}"
 	            artist="{ARTIST}"
