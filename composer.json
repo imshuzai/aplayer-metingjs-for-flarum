@@ -1,5 +1,5 @@
 {
-    "name": "imshuzai/aplayer-n-metingjs-for-flarum",
+    "name": "imshuzai/aplayer-metingjs-for-flarum",
     "description": "Using Aplayer and MetingJS to embed music in Flarum.",
     "type": "flarum-extension",
     "keywords": ["discussion"],
@@ -12,8 +12,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/imshuzai/aplayer-n-metingjs-for-flarum/issues",
-        "source": "https://github.com/imshuzai/aplayer-n-metingjs-for-flarum",
+        "issues": "https://github.com/imshuzai/aplayer-metingjs-for-flarum/issues",
+        "source": "https://github.com/imshuzai/aplayer-metingjs-for-flarum",
         "forum": "https://discuss.flarum.org"
     },
     "homepage": "https://potatohovel.com",
