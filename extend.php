@@ -1,6 +1,6 @@
 <?php
 
-namespace Shuzai\Aplayer;
+namespace imshuzai\aplayer;
 
 use Flarum\Extend;
 use Flarum\Frontend\Document;
