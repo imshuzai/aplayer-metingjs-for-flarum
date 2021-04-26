@@ -16,22 +16,22 @@ return [
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
                 '[metingjs server="{SERVER}" id="{ID}" type="{TYPE}" list-folded="{LISTFOLDED}"]',
-                '<div><meting-js
+                '<span><meting-js
 	            server="{SERVER}"
 	            type="{TYPE}"
 	            id="{ID}"
                     list-folded="{LISTFOLDED}">
-                 </meting-js></div>'
+                 </meting-js></span>'
             );
 	    $config->BBCodes->addCustom(
                 '[aplayer name="{NAME}" artist="{ARTIST}" url="{URL}" cover="{COVER}" lrc="{LRC}"]',
-                '<div><meting-js
+                '<span><meting-js
                     name="{NAME}"
 	            artist="{ARTIST}"
 	            url="{URL}"
 	            cover="{COVER}"
                     lrc="{LRC}">
-                 </meting-js></div>'
+                 </meting-js></span>'
             );
         })
 ];
