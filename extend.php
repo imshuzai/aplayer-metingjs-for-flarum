@@ -15,11 +15,11 @@ return [
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
-                '[metingjs server="{TEXT1}" id="{TEXT2}" type="{TEXT3}" list-folded="{TEXT4}"]',
-                '<div><meting-js server="{TEXT1}" type="{TEXT3}" id="{TEXT2}" list-folded="{TEXT4}"></meting-js></div>'
+                '[metingjs server="{TEXT1}" id="{TEXT2}" type="{TEXT3}"]',
+                '<div><meting-js server="{TEXT1}" type="{TEXT3}" id="{TEXT2}"></meting-js></div>'
             );
 	    $config->BBCodes->addCustom(
-                '[aplayer name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4}" lrc="{TEXT5}"]',
+                '[aplayer name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4?}" lrc="{TEXT5?}"]',
                 '<div><meting-js name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4}" lrc="{TEXT5}"></meting-js></div>'
             );
         })
