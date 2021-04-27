@@ -6,9 +6,12 @@ use s9e\TextFormatter\Configurator;
 
 return [
     (new Extend\Frontend('forum'))
-        ->js(__DIR__.'/assets/Meting.min.js')
-	->js(__DIR__.'/assets/APlayer.min.js')
-        ->css(__DIR__.'/assets/APlayer.min.css'),
+        ->content(function (Document $document) {
+            $document->head[] = '
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+	<script async src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+	<script async src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>';
+        }),
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
