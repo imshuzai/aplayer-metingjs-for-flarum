@@ -1,5 +1,9 @@
 # Aplayer and MetingJS for Flarum
 
-\[metingjs server="netease/tencent/kugou/baidu" id="song id/playlist id/album id" type="song/playlist/album" list-folded="true/false"]
+install or update:
+
+> composer require imshuzai/aplayer-metingjs-for-flarum
+
+\[metingjs server="netease/tencent" id="song id/playlist id/album id" type="song/playlist/album"]
 
 \[aplayer name="song name" artist="artist name" url="song url" cover="cover url" lrc="lrc url"]
