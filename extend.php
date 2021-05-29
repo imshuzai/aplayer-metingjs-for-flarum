@@ -23,42 +23,5 @@ return [
                 '[aplayer name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4?}" lrc="{TEXT5?}"]',
                 '<div><meting-js name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4}" lrc="{TEXT5}"></meting-js></div>'
             );
-	    $config->BBCodes->addCustom(
-                '[aplayer-hls name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4?}"]',
-                '<script>
-		 var ap = new APlayer({
-    		 container: document.getElementById('player'),
-    		 audio: [{
-        	 name: '{TEXT1}',
-        	 artist: '{TEXT2}',
-        	 url: '{TEXT3}',
-        	 cover: '{TEXT4}',
-        	 type: 'hls'
-    		 }]
-		 });
-		 ap.init();
-		 </script>'
-            );
-            $config->BBCodes->addCustom(
-                '[song-in-list name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4?}" lrc="{TEXT5?}"]',
-                '{
-            	  name: '{TEXT1}',
-            	  artist: '{TEXT2}',
-            	  url: '{TEXT3}',
-            	  cover: '{TEXT4}',
-            	  lrc: '{TEXT5}',
-        	  }'
-            );
-	    $config->BBCodes->addCustom(
-                '[aplayer-list]{TEXT6}[/aplayer-list]',
-                '<script>
-		 var ap = new APlayer({
-    		 container: document.getElementById('player'),
-    	         lrcType: 1,
-    		 audio: [{TEXT6}]
-		 });
-		 ap.init();
-		 </script>'
-            );
         })
 ];
