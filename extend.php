@@ -27,7 +27,7 @@ return [
                 '[aplayer-hls name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4?}"]',
                 '<script>
 		 const ap = new APlayer({
-    		 container: document.getElementById('aplayer'),
+    		 container: document.getElementById('player'),
     		 audio: [{
         	 name: '{TEXT1}',
         	 artist: '{TEXT2}',
