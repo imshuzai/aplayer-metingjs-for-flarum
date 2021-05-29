@@ -26,7 +26,7 @@ return [
 	    $config->BBCodes->addCustom(
                 '[aplayer-hls name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4?}"]',
                 '<script>
-		 const ap = new APlayer({
+		 var ap = new APlayer({
     		 container: document.getElementById('player'),
     		 audio: [{
         	 name: '{TEXT1}',
@@ -36,6 +36,7 @@ return [
         	 type: 'hls'
     		 }]
 		 });
+		 ap.init();
 		 </script>'
             );
             $config->BBCodes->addCustom(
@@ -51,11 +52,12 @@ return [
 	    $config->BBCodes->addCustom(
                 '[aplayer-list]{TEXT6}[/aplayer-list]',
                 '<script>
-		 const ap = new APlayer({
+		 var ap = new APlayer({
     		 container: document.getElementById('player'),
     	         lrcType: 1,
     		 audio: [{TEXT6}]
 		 });
+		 ap.init();
 		 </script>'
             );
         })
