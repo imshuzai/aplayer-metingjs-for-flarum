@@ -9,7 +9,7 @@ return [
         ->content(function (Document $document) {
             $document->head[] = '
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-	<script async src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+	<!-- <script async src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script> -->
 	<script async src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 	<script async src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>';
         }),
@@ -22,20 +22,6 @@ return [
 	    $config->BBCodes->addCustom(
                 '[aplayer name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4?}" lrc="{TEXT5?}"]',
                 '<div><meting-js name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4}" lrc="{TEXT5}"></meting-js></div>'
-            );
-	    $config->BBCodes->addCustom(
-                '[aplayer-hls name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4?}"]',
-                '<div id="aplayer"></div>
-		 <script>const ap = new APlayer({
-    		 	 container: document.getElementById('aplayer'),
-    			 audio: [{
-        		 name: '{TEXT1}',
-        		 artist: '{TEXT2}',
-        		 url: '{TEXT3}',
-        		 cover: '{TEXT4}',
-        	   	 type: 'hls'
-    			 }]
-			 });</script>'
             );
         })
 ];
