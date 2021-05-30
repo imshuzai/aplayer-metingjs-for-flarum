@@ -23,5 +23,19 @@ return [
                 '[aplayer name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4?}" lrc="{TEXT5?}"]',
                 '<div><meting-js name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4}" lrc="{TEXT5}"></meting-js></div>'
             );
+	    $config->BBCodes->addCustom(
+                '[aplayer-hls name="{TEXT1}" artist="{TEXT2}" url="{TEXT3}" cover="{TEXT4?}"]',
+                '<div id="aplayer"></div>
+		 <script>const ap = new APlayer({
+    		 	 container: document.getElementById('aplayer'),
+    			 audio: [{
+        		 name: '{TEXT1}',
+        		 artist: '{TEXT2}',
+        		 url: '{TEXT3}',
+        		 cover: '{TEXT4}',
+        	   	 type: 'hls'
+    			 }]
+			 });</script>'
+            );
         })
 ];
