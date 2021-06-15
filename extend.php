@@ -15,7 +15,7 @@ return [
 	<script async src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
   	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 	<script src="//cdn.jsdelivr.net/npm/vue-aplayer"></script>
-	<script>
+	<script language="javascript" type="text/javascript">
   	Vue.component('aplayer', VueAPlayer)
 	</script>';
         }),
