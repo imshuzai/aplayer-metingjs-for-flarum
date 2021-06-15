@@ -16,7 +16,7 @@ return [
   	<script async src="https://cdn.jsdelivr.net/npm/vue"></script>
 	<script async src="https://cdn.jsdelivr.net/npm/vue-aplayer"></script>
 	<script language="javascript" type="text/javascript">
-  	Vue.component('aplayer', VueAPlayer)
+  	Vue.component("aplayer", VueAPlayer)
 	</script>';
         }),
     (new Extend\Formatter)
