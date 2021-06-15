@@ -10,11 +10,11 @@ return [
             $document->head[] = '
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 	<script async src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-	<script src="https://cdn.jsdelivr.net/npm/colorthief@2.0.2/src/color-thief.js"></script>
+	<script async src="https://cdn.jsdelivr.net/npm/colorthief@2.0.2/src/color-thief.js"></script>
 	<script async src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 	<script async src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
-  	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-	<script src="//cdn.jsdelivr.net/npm/vue-aplayer"></script>
+  	<script async src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script async src="https://cdn.jsdelivr.net/npm/vue-aplayer"></script>
 	<script language="javascript" type="text/javascript">
   	Vue.component('aplayer', VueAPlayer)
 	</script>';
