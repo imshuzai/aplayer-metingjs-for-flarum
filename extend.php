@@ -9,7 +9,6 @@ return [
         ->content(function (Document $document) {
             $document->head[] = '
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-	<script async src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 	<script async src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 	<script async src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>';
         }),
