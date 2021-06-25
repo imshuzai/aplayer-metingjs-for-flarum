@@ -6,4 +6,4 @@ install or update:
 
 \[metingjs server="netease/tencent" id="song id/playlist id/album id" type="song/playlist/album"]
 
-\[aplayer name="song name" artist="artist name" url="song url" cover="cover url" lrc="lrc url"]
+\[aplayer name="song name" artist="artist name" url="song url" cover="cover url(optional)" lrc="lrc url(optinoal)"]
