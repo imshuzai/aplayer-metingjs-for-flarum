@@ -1,6 +1,6 @@
 # Aplayer and MetingJS for Flarum
 
-install or update:
+Install:
 
 > composer require imshuzai/aplayer-metingjs-for-flarum
 
