@@ -8,7 +8,7 @@ return [
     (new Extend\Frontend('forum'))
         ->content(function (Document $document) {
             $document->head[] = '
-	<link rel="stylesheet" href="https://unpkg.com/browse/aplayer@1.10.1/dist/APlayer.min.css">
+	<link href="https://unpkg.com/browse/aplayer@1.10.1/dist/APlayer.min.css">
 	<script async src="https://unpkg.com/browse/aplayer@1.10.1/dist/APlayer.min.js"></script>
 	<script async src="https://unpkg.com/meting@2.0.1/dist/Meting.min.js"></script>';
         }),
